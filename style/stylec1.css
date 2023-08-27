@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --fonte1: 'Poppins', Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--fonte1);
+}
+
+.menu-header {
+    padding: 20px;
+    background-color: #ebebeb;
+}   
+
+.menu-header > a {
+    font-family: var(--fonte1);
+    color: #000000;
+    background-color: #fbfafa;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 47px;
+}
+
+.conteudo1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.menu1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 400px;
+}
+
+.menu1 > div {
+    height: 180px;
+    width: 170px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px #636363;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.menu1 > div > img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.menu1 > div > h2 {
+    font-size: 20px;
+    padding: 3px;
+    margin-top: -7px;
+}
+
+#h2-1 {
+    font-size: 17px;
+    line-height: 17px;
+}

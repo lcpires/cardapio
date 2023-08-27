@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --fonte1: 'Poppins', Verdana, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    height: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px 20px;
+
+}
+
+nav > a {
+    color: #000000;
+    text-decoration: none;
+    font-family: var(--fonte1);
+    padding: 2px 10px;
+    transition-duration: 0.6s;
+
+}
+
+nav a:hover {
+    background-color: #c9c9c943;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 18px;
+}
+
+#fazer-pedido {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #006225;
+    border-radius: 17px;
+}
+
+#fazer-pedido:hover {
+    font-size: 17px;
+}
+
+.logo1 {
+    margin-top: 30px;
+}
+
+.logo1 > img {
+    width: 200px;
+}
+
+main {
+    font-family: var(--fonte1);
+    padding:0px 60px 30px 60px;
+}
+
+.conteudo1 {
+    margin: 40px;
+}
+
+.titulo1 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.titulo1 > h1 {
+    color: #000000;
+    text-shadow: 1px 1px 3px #fffde9;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+.titulo1 > p {
+    color: #006225;
+    text-shadow: 1px 1px 3px #00000066;
+}
+
+span {
+    color: #000000;
+}
+
+#d1 {
+    color: #cd151d;
+}
+
+.conteudo2 {
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 2px 2px 10px #000000;
+    font-size: 20px;
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.conteudo2 > h1 {
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #000000;
+    text-shadow: 1px 1px 3px #fffde9;
+}
+
+.botoes1 {
+    border-radius: 10px;
+    padding: 30px 20px;
+    border: 1px solid #000000;
+}
+
+.botoes1 > p {
+    padding: 15px;
+}
+
+.botoes1 > p > a {
+    border: 1px solid #006225;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #00000066;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #000000;
+    transition-duration: 0.7s;
+}
+
+.botoes1 > p > a:hover {
+    background-color: #006225;
+    border-radius: 20px;
+    border: none;
+}
